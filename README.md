@@ -1,11 +1,11 @@
-# ☀️ Solar Power Generation Prediction
+# Solar Power Generation Prediction
 
-## 📌 Overview
+## Overview
 This project predicts solar power generation using machine learning models based on weather and environmental parameters. Multiple regression models were implemented and compared to identify the best performing algorithm.
 
 ---
 
-## 🚀 Models Implemented
+## Models Implemented
 - Random Forest Regressor
 - XGBoost Regressor
 - Stochastic Gradient Descent (SGD)
@@ -13,7 +13,7 @@ This project predicts solar power generation using machine learning models based
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Model           | RMSE   | R² Score | MSE      |
 |----------------|--------|----------|----------|
@@ -22,24 +22,12 @@ This project predicts solar power generation using machine learning models based
 | SGD           | 209.38 | 0.56     | 43841.87 |
 | Adam          | 169.33 | 0.71     | 28673.17 |
 
-### 🏆 Best Model
+### Best Model
 Random Forest achieved the highest R² score (0.75) and lowest RMSE among all models.
 
 ---
 
-## 📈 Visual Results
-
-### Actual vs Predicted
-<img src="screenshots/actual-vs-predicted.png" width="700"/>
-
----
-
-### Feature Importance
-<img src="screenshots/feature-importance.png" width="700"/>
-
----
-
-## 🛠 Technologies Used
+## Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -50,7 +38,7 @@ Random Forest achieved the highest R² score (0.75) and lowest RMSE among all mo
 
 ---
 
-## 📂 Dataset Features
+## Dataset Features
 - Radiation
 - Temperature
 - Pressure
@@ -62,7 +50,7 @@ Random Forest achieved the highest R² score (0.75) and lowest RMSE among all mo
 
 ---
 
-## 💡 Key Concepts Implemented
+## Key Concepts Implemented
 - Data Preprocessing
 - Feature Engineering
 - Model Training & Evaluation
@@ -71,6 +59,6 @@ Random Forest achieved the highest R² score (0.75) and lowest RMSE among all mo
 
 ---
 
-## 👩‍💻 Author
+## Author
 Lepakshi Vyshnavi  
 Integrated M.Tech CSE | VIT-AP University
